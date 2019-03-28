@@ -31,7 +31,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(142, 102, 16, 0.10);
+  background-color: rgba(238, 116, 34, 0.20);
   z-index: 0;
 }
 
@@ -88,7 +88,7 @@ h1 span:nth-of-type(2) {
   text-align: left;
   color: #fff;
   border-radius: 80px;
-  background-color: #C38917;
+  background-color: #C65A12;
   margin: 2%;
   align-items: center;
   max-height: 75px;
@@ -96,7 +96,7 @@ h1 span:nth-of-type(2) {
 }
 
 .styled:hover {
-  background-color: #9E7523;
+  background-color: #813A0B;
 }
 
 a {
@@ -251,12 +251,12 @@ h2, h3 {
   }
 
   .athlets__text_2 {
-    background-color:#EFE2C9;
+    background-color:#F0C4A7;
     padding-left:52%;
   }
 
   .athlets__text_3 {
-    background-color:#C38917;
+    background-color:#C65A12;
     padding-left:52%;
   }
 
@@ -290,7 +290,7 @@ h2, h3 {
 
   .number {
     margin-right: 1%;
-    border-bottom: 3px solid #C38917;
+    border-bottom: 3px solid #C65A12;
     border-radius: 2px;
     align-self: center;
     font-weight:bold;
@@ -421,12 +421,12 @@ h2, h3 {
 }
 
 .players__text_2 {
-  background-color:#F3E5CA;
+  background-color:#F7AF7E;
   padding-left:10%;
 }
 
 .players__text_3 {
-  background-color:#AB7D20;
+  background-color:#A64A0C;
   padding-left:10%;
 }
 
@@ -444,7 +444,7 @@ h2, h3 {
 
 .dark_2 {
   border-color: #f0f3ea;
-  color:#412D03;
+  color:#4B2308;
 }
 
 .change_color {
@@ -562,7 +562,7 @@ h2, h3 {
   left: 50%;
   transform: translate(-50%);
   top: 10vw;
-  background-color:#C38917;
+  background-color:#C65A12;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -572,7 +572,7 @@ h2, h3 {
   color:white;
   font-size:20px;
   font-family: OpenSans-Bold;
-  border-bottom: 3px #836019 solid;
+  border-bottom: 3px #F6863B solid;
 }
 
 /* IPAD_SIZE */
@@ -860,7 +860,7 @@ h2, h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(142, 102, 16, 0.20);
+  background-color: rgba(238, 116, 34, 0.25);
   z-index: 0;
 }
 
@@ -923,7 +923,7 @@ h2, h3 {
   padding: 0 10px;
   color: #fff;
   border-radius: 20px;
-  background-color: #C38917;
+  background-color: #C65A12;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
