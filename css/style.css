@@ -13,7 +13,7 @@ body {
 .header_banner {
   width: 100%;
   max-width: 1920px;
-  background-image: url("../img2/header_2000.jpg");
+  background-image: url("../img/header_1024.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -47,12 +47,12 @@ svg {
 }
 
 .h_header-logo {
-  width:5%;
+  width:8%;
 }
 
 .h_title {
   font-family: 'Underdog', cursive;
-  margin-top: 125px;
+  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 125px;
@@ -105,7 +105,7 @@ a {
 }
 
 .p {
-  margin-left: 5px;
+  margin-left: 15px;
   font-size: 16px;
 }
 
@@ -140,7 +140,7 @@ a {
 /* IPAD_SIZE */
 @media (min-width: 641px) and (max-width: 960px) {
   .header_banner {
-    background-image: url("../img2/header_1024.jpg");
+    background-image: url("../img/header_640.png");
     width: 100%;
   }
 
@@ -166,7 +166,7 @@ a {
 /* PHONE_SIZE */
 @media (max-width: 640px) {
   .header_banner {
-    background-image: url("../img2/header_300.jpg");
+    background-image: url("../img/header_300.jpg");
   }
 
   .h_container-logo {
@@ -296,14 +296,14 @@ h2, h3 {
   }
 
   .main_h2 {
-    color:#463E3E;
+    color:#4B2308;
     font-size: 25px;
     font-family: 'Underdog', cursive;
   }
 
   .text {
     max-width: 550px;
-    font-family: 'Underdog', cursive;
+    font-family: Arial, sans-serif;
     margin-top: 0px;
     margin-bottom: 0%;
     padding-bottom:5%;
@@ -842,7 +842,7 @@ h2, h3 {
 /* FOOTER */
 .footer_banner {
   width: 100%;
-  background-image: url("../img2/footer_1920.jpg");
+  background-image: url("../img/footer_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -907,6 +907,7 @@ h2, h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top:100px;
 }
 
 .f_text_svg {
@@ -937,7 +938,7 @@ h2, h3 {
 /* IPAD_SIZE */
 @media (min-width: 641px) and (max-width: 960px) {
   .footer_banner {
-    background-image: url("../img2/footer_1280.jpg");
+    background-image: url("../img/footer_640.jpg");
   }
 
   .f_title {
@@ -994,7 +995,7 @@ h2, h3 {
 /* PHONE_SIZE */
 @media (max-width: 640px) {
   .footer_banner {
-    background-image: url("../img2/footer_767.jpg");
+    background-image: url("../img/footer_320.jpg");
   }
 
   .f_title {
@@ -1021,7 +1022,7 @@ h2, h3 {
     margin: 0px;
     height: 12vw;
     width: 12vw;
-    margin-bottom: 14%;
+    margin-bottom: 0;
     border-radius: 14px;
   }
 
