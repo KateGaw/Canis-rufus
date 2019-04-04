@@ -311,7 +311,8 @@ h2, h3 {
     font-family: Arial, sans-serif;
     margin-top: 0px;
     margin-bottom: 0%;
-    padding-bottom:5%;
+    padding-bottom: 3%;
+    padding-right: 10%;
   }
 
 /* IPAD_SIZE */
@@ -407,10 +408,10 @@ h2, h3 {
 }
 
 .img_2 {
-  padding-top: 2%;
+  /* padding-top: 2%; */
   position:absolute;
-  left:55%;
-  width:55%;
+  left: 60%;
+  width: 38%;
 }
 
 .basketballer_img {
@@ -435,7 +436,7 @@ h2, h3 {
 .player_text {
   width:100%;
   padding-left: 0%;
-  padding-top: 15%;
+  padding-top: 12%;
 }
 
 .pl_h1 {
@@ -554,7 +555,8 @@ h2, h3 {
 }
 
 .plus_padding {
-  padding-top: 5%;
+  /* padding-top: 5%; */
+  margin-bottom: 15%;
 }
 
 .count {
@@ -568,6 +570,10 @@ h2, h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.c_1 {
+  top: 12vw;
 }
 
 .c__count {
@@ -617,6 +623,7 @@ h2, h3 {
 
   .plus_padding {
     padding-top: 0%;
+    margin-bottom: 0%;
   }
 
   .main_h1 {
@@ -673,6 +680,7 @@ h2, h3 {
     padding-top: 0%;
     font-size: 15px;
     padding-bottom: 0px;
+    margin-bottom: 0%;
   }
 
   .main_h1 {
