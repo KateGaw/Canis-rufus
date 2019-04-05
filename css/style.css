@@ -209,7 +209,6 @@ a {
   }
 
   .btn_content {
-    /* width: 140px; */
     justify-content: flex-start;
   }
 
@@ -320,8 +319,6 @@ h2, h3 {
   .athlets_img{
     width:auto;
     padding-top: 12%
-    /* right:52%; */
-
   }
 
   .footballer_img {
@@ -408,7 +405,6 @@ h2, h3 {
 }
 
 .img_2 {
-  /* padding-top: 2%; */
   position:absolute;
   left: 60%;
   width: 38%;
@@ -532,7 +528,6 @@ h2, h3 {
   width:50%;
   line-height: 0;
   min-width: 480.5px;
-  /* min-height: 320.5px; */
   background-color: grey;
 }
 
@@ -555,7 +550,6 @@ h2, h3 {
 }
 
 .plus_padding {
-  /* padding-top: 5%; */
   margin-bottom: 15%;
 }
 
@@ -596,7 +590,6 @@ h2, h3 {
   .be_active__img {
     width:100%;
     min-width: 641px;
-    /* min-height: 487.5px; */
   }
 
   .be_active__text {
@@ -651,7 +644,6 @@ h2, h3 {
   .be_active__img {
     width:100%;
     min-width: 320px;
-    /* min-height: 351px; */
   }
 
   .be_active__text {
@@ -704,7 +696,6 @@ h2, h3 {
   width:50%;
   line-height: 0;
   min-width: 480.5px;
-  /* min-height: 365.6px; */
   background-color: grey;
 }
 
@@ -735,7 +726,6 @@ h2, h3 {
   .find_contact__img {
     width:100%;
     min-width: 641px;
-    /* min-height: 487.5px; */
   }
 
   .find_contact__text {
@@ -758,7 +748,6 @@ h2, h3 {
   .find_contact__img {
     width:100%;
     min-width: 320px;
-    /* min-height: 351px; */
   }
 
   .find_contact__text {
@@ -792,7 +781,6 @@ h2, h3 {
   width:50%;
   line-height: 0;
   min-width: 480.5px;
-  /* min-height: 365.6px; */
   background-color: grey;
 }
 
@@ -823,7 +811,6 @@ h2, h3 {
   .work_it__img {
     width:100%;
     min-width: 641px;
-    /* min-height: 487.5px; */
   }
 
   .work_it__text {
@@ -844,7 +831,6 @@ h2, h3 {
   .work_it__img {
     width:100%;
     min-width: 320px;
-    /* min-height: 351px; */
   }
 
   .work_it__text {
