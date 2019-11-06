@@ -1,0 +1,164 @@
+p, .calc, .score {
+  display: none;
+}
+
+body, .btn {
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Neucha', cursive;  */
+  /* font-family: 'Pangolin', cursive; */
+  font-family: 'Kurale', serif;
+}
+
+
+body {
+  font-size: 1.7em;
+  background-color: #CD853F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+}
+
+
+.score {
+  width: 70%;
+  font-size: 0.8em;
+  margin-top: 0;
+  padding: 10vh 5vh;
+  border: 20px groove #F4A460;
+  border-radius: 10px;
+  background-color: #F5DEB3;
+}
+
+
+/* TEST */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1% 4% 2%;
+  border: 20px groove #F4A460;
+  border-radius: 10px;
+  width: 45%;
+  height: 87vh;
+  background-color: #F5DEB3;
+}
+
+label {
+  margin-bottom: 3%;
+}
+
+.group_answ {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+.questions_field {
+  height: 79%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  flex-direction: column;
+}
+
+
+/* BEGIN FIELD */
+.begin {
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8em;
+  border: 20px groove #F4A460;
+  border-radius: 10px;
+  background-color: #F5DEB3;
+  padding: 2% 3%;
+}
+
+.begin_btn {
+  width: auto;
+}
+
+
+/* RADIOBUTTON STYLE */
+input[type=radio] {
+  visibility: hidden;
+  position: absolute;
+}
+
+input[type=radio] + label:before {
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+  content: " ";
+  display: inline-block;
+  vertical-align: baseline;
+  border: 1px solid #382d0b;
+  margin-bottom: 3px;
+}
+
+input[type=radio]:checked + label:before {
+  background: #DAA520;
+}
+
+input[type=radio] + label:before {
+  border-radius:50%;
+}
+
+
+
+/* BUTTON STYLE */
+.btn {
+  font-size: 25px;
+  border: 1px solid #382d0b;
+  padding: 4px 25px;
+  text-align: left;
+  color: black;
+  border-radius: 80px;
+  background-color:#D2691E;
+  margin: 2%;
+  align-items: center;
+  max-height: 75px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.buttons_field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* MEDIA */
+
+@media (max-width: 600px) {
+  .buttons_field {
+    width: fit-content;
+  }
+
+  .questions_field {
+    height: 77%;
+  }
+
+  .begin, form {
+    width: 85%;
+  }
+}
+
+@media (min-width: 961px) {
+  form {
+    height: 77vh;
+  }
+
+  .buttons_field {
+    flex-direction: row;
+  }
+
+  .questions_field {
+    height: 87%;
+  }
+}

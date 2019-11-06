@@ -1,270 +1,438 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuon alpinus</title>
-    <link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
-    <!-- HEADER -->
-    <header class="header_banner">
-      <div class="h_common-container">
-        <div class="h_fixed-container">
-          <div class="h_container-logo">
-            <svg class="h_header-logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 16.56 16.56" xml:space="preserve" enable-background="new 0 0 16.564 16.564">
-              <path d="M12.09 11.97c-1.45-1.82-1.52-4.03-1.52-4.03 -0.09-0.07-0.18-0.17-0.32-0.26 -0.03-0.02-0.05-0.04-0.08-0.06C10.05 7.54 9.92 7.47 9.8 7.42 9.39 7.26 9.03 7.2 8.59 7.18 7.94 7.16 7.47 7.42 7.04 7.75 6.97 7.81 6.9 7.87 6.83 7.94c-0.15 0.15-0.21 0.23-0.34 0.37C6.47 8.33 6.47 8.34 6.45 8.36c0 0-0.55 1.88-1.56 3.23
-              -1.01 1.35-2.33 1.87-2.33 2.23 0 0.54 0.03 0.8 0.23 1.29 0.06 0.14 0.14 0.27 0.22 0.39 0.15 0.22 0.18 0.22 0.28 0.34 0.08 0.1 0.21 0.2 0.32 0.28 0.09 0.07 0.18 0.13 0.28 0.18 0.01 0.01 0.03 0.02 0.05 0.02 0.16 0.08 0.33 0.16 0.51 0.18l0.55 0.06h0.17c0.59-0.02 1.5-0.29 2.01-0.44 0.14-0.04 0.28-0.07 0.43-0.1l0.94-0.12c0.46-0.03 1.32 0.16 1.79 0.29 0.53 0.16 1.17 0.34 1.72 0.36h0.29c0.54-0.03 1.04-0.22 1.44-0.56 0.52-0.43 0.85-0.95 0.95-1.64C14.87 13.44 13.54 13.78 12.09 11.97z"/>
-              <path d="M15.93 6.51c0.07-0.1 0.13-0.2 0.16-0.31 0.06-0.2 0.06-0.4 0.01-0.59 -0.05-0.19-0.15-0.36-0.33-0.5 -0.13 0.19-0.2 0.35-0.26 0.49 -0.06 0.14-0.1 0.27-0.14 0.39 -0.03 0.09-0.05 0.17-0.07 0.26 -0.74 0-1.61 0.87-1.97 1.7 -0.41 0.96-0.1 2.02 0.7 2.36s1.78-0.15 2.2-1.11C16.59 8.36 16.48 7.07 15.93 6.51z"/>
-              <path d="M10.82 6.57c1.05 0.23 2.13-0.62 2.4-1.88 0.23-1.05-0.18-2.52-0.93-3.11 0.03-0.05 0.06-0.11 0.08-0.16 0.06-0.2 0.06-0.4 0.01-0.59 -0.05-0.19-0.15-0.36-0.33-0.5 -0.13 0.19-0.2 0.35-0.26 0.49 -0.06 0.14-0.1 0.27-0.14 0.39 -0.01 0.04-0.02 0.08-0.03 0.12 -0.99-0.02-1.95 1.37-2.21 2.56C9.14 5.14 9.77 6.34 10.82 6.57z"/>
-              <path d="M6.15 6.63C7.29 6.54 8.13 5.36 8.02 3.99 7.92 2.68 6.81 1.07 5.72 1 5.71 0.96 5.7 0.92 5.68 0.88 5.65 0.76 5.61 0.63 5.54 0.49 5.48 0.35 5.41 0.19 5.28 0c-0.18 0.14-0.28 0.32-0.33 0.51C4.9 0.69 4.9 0.9 4.96 1.1c0.01 0.03 0.03 0.06 0.04 0.09 -0.8 0.52-1.22 1.99-1.13 3.13C3.99 5.69 5 6.72 6.15 6.63z"/>
-              <path d="M3.78 7.79C3.5 6.69 2.33 5.47 1.38 5.53c-0.01-0.04-0.02-0.07-0.03-0.11C1.31 5.3 1.27 5.17 1.21 5.03c-0.06-0.14-0.13-0.3-0.26-0.49C0.77 4.68 0.67 4.85 0.62 5.04 0.56 5.23 0.57 5.44 0.63 5.64c0.02 0.07 0.06 0.14 0.1 0.2C0.14 6.43 0 7.73 0.24 8.68c0.3 1.17 1.33 1.92 2.31 1.68C3.53 10.11 4.08 8.96 3.78 7.79z"/>
-            </svg>
-          </div>
-        </div>
-        <div class="h_title">
-          <h1>
-            <span class="h_banner-title">что вы знаете о</span>
-            <span class="h_banner-title2">красных волках?</span>
-          </h1>
-        </div>
-        <div class="top_buttons">
-          <a href="#" class="styled">
-            <div class="btn_content">
-              <svg class="svg_btn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 16.56 16.56" xml:space="preserve" enable-background="new 0 0 16.564 16.564">
-                <path d="M12.09 11.97c-1.45-1.82-1.52-4.03-1.52-4.03 -0.09-0.07-0.18-0.17-0.32-0.26 -0.03-0.02-0.05-0.04-0.08-0.06C10.05 7.54 9.92 7.47 9.8 7.42 9.39 7.26 9.03 7.2 8.59 7.18 7.94 7.16 7.47 7.42 7.04 7.75 6.97 7.81 6.9 7.87 6.83 7.94c-0.15 0.15-0.21 0.23-0.34 0.37C6.47 8.33 6.47 8.34 6.45 8.36c0 0-0.55 1.88-1.56 3.23
-                -1.01 1.35-2.33 1.87-2.33 2.23 0 0.54 0.03 0.8 0.23 1.29 0.06 0.14 0.14 0.27 0.22 0.39 0.15 0.22 0.18 0.22 0.28 0.34 0.08 0.1 0.21 0.2 0.32 0.28 0.09 0.07 0.18 0.13 0.28 0.18 0.01 0.01 0.03 0.02 0.05 0.02 0.16 0.08 0.33 0.16 0.51 0.18l0.55 0.06h0.17c0.59-0.02 1.5-0.29 2.01-0.44 0.14-0.04 0.28-0.07 0.43-0.1l0.94-0.12c0.46-0.03 1.32 0.16 1.79 0.29 0.53 0.16 1.17 0.34 1.72 0.36h0.29c0.54-0.03 1.04-0.22 1.44-0.56 0.52-0.43 0.85-0.95 0.95-1.64C14.87 13.44 13.54 13.78 12.09 11.97z"/>
-                <path d="M15.93 6.51c0.07-0.1 0.13-0.2 0.16-0.31 0.06-0.2 0.06-0.4 0.01-0.59 -0.05-0.19-0.15-0.36-0.33-0.5 -0.13 0.19-0.2 0.35-0.26 0.49 -0.06 0.14-0.1 0.27-0.14 0.39 -0.03 0.09-0.05 0.17-0.07 0.26 -0.74 0-1.61 0.87-1.97 1.7 -0.41 0.96-0.1 2.02 0.7 2.36s1.78-0.15 2.2-1.11C16.59 8.36 16.48 7.07 15.93 6.51z"/>
-                <path d="M10.82 6.57c1.05 0.23 2.13-0.62 2.4-1.88 0.23-1.05-0.18-2.52-0.93-3.11 0.03-0.05 0.06-0.11 0.08-0.16 0.06-0.2 0.06-0.4 0.01-0.59 -0.05-0.19-0.15-0.36-0.33-0.5 -0.13 0.19-0.2 0.35-0.26 0.49 -0.06 0.14-0.1 0.27-0.14 0.39 -0.01 0.04-0.02 0.08-0.03 0.12 -0.99-0.02-1.95 1.37-2.21 2.56C9.14 5.14 9.77 6.34 10.82 6.57z"/>
-                <path d="M6.15 6.63C7.29 6.54 8.13 5.36 8.02 3.99 7.92 2.68 6.81 1.07 5.72 1 5.71 0.96 5.7 0.92 5.68 0.88 5.65 0.76 5.61 0.63 5.54 0.49 5.48 0.35 5.41 0.19 5.28 0c-0.18 0.14-0.28 0.32-0.33 0.51C4.9 0.69 4.9 0.9 4.96 1.1c0.01 0.03 0.03 0.06 0.04 0.09 -0.8 0.52-1.22 1.99-1.13 3.13C3.99 5.69 5 6.72 6.15 6.63z"/>
-                <path d="M3.78 7.79C3.5 6.69 2.33 5.47 1.38 5.53c-0.01-0.04-0.02-0.07-0.03-0.11C1.31 5.3 1.27 5.17 1.21 5.03c-0.06-0.14-0.13-0.3-0.26-0.49C0.77 4.68 0.67 4.85 0.62 5.04 0.56 5.23 0.57 5.44 0.63 5.64c0.02 0.07 0.06 0.14 0.1 0.2C0.14 6.43 0 7.73 0.24 8.68c0.3 1.17 1.33 1.92 2.31 1.68C3.53 10.11 4.08 8.96 3.78 7.79z"/>
-              </svg>
-              <div class="p">
-                <p class="p1">Узнать больше о</p>
-                <p class="p2">красных волках</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </header>
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kurale&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet">
 
-    <!-- MAIN -->
-    <main>
-      <section class="athlets">
-        <h2 class="main_h1 ath_h1">Красные волки</h2>
-        <div class="athlets_text">
-          <div class="athlets__text_1">
-            <div class="h2">
-              <span class="number">01</span>
-              <h3 class="main_h2">удивительные звери</h3>
-            </div>
-            <p class="text">Красный волк, или горный волк (лат. Cuon alpinus) —
-              хищное млекопитающее семейства псовых, единственный вид рода Cuon.
-              Редкий вид псовых, находящийся под угрозой исчезновения. </p>
-          </div>
-          <div class="athlets__text_2">
-            <div class="h2">
-              <span class="number">02</span>
-              <h3 class="main_h2">cреда обитания</h3>
-            </div>
-            <p class="text">В большинстве случаев, встретить красного волка вы
-              сможете только горной и лесной местности около Центральной и Южной
-              Азии. Самая комфортная среда обитания для этого волка – это горы.
-              Отсюда и пошло еще одно название – горный волк.</p>
-            </div>
-            <div class="athlets__text_3">
-              <div class="h2">
-                <span class="number dark">03</span>
-                <h3 class="main_h2 dark_t">внешний вид</h3>
-              </div>
-              <p class="text change_color t3">Длина тела достигает 160
-                 см вместе с хвостом, а масса – 21 кг. Красный волк - это
-                 своеобразный собирательный образом, включающий в себя
-                 волка, лисицу и шакала. Обладает характерным рыжим окрасом,
-                 заострённой мордочкой и большими округлыми ушками.</p>
-              </div>
-            </div>
+  <script type="text/javascript" src="script.js"></script>
+  <title>Куб в пустыне</title>
+</head>
+<body>
 
-            <div class="athlets_img">
-              <picture>
-                <source media="(min-width: 641px) and (max-width: 960px)"
-                srcset="img/png_2_450.png">
-                <source media="(max-width: 640px)"
-                srcset="img/png_2_200.png">
-                <img src="img/png_2_600.png" class="footballer_img" alt="footballer">
-              </picture>
-            </div>
-        </section>
+  <div class="begin" id="begin">
+    <a class="instruction">
+      Считается, что проективный тест "Куб в пустные" - это изобретение восточных мудрецов,
+      которые смогли подобрать и расшифровать образы и видения, приоткрывающие секреты нашей личности. <br> <br>
+      Тест поможет лучше понять себя, свои отношения с окружающими людьми, друзьями, близкими.
+      Последующие вопросы помогут определить взаимосвязи между образами, возникающими в воображении и
+      Вашим внутренним миром. <br> <br>
+      Для удобства рекомендуем взять ручку и бумагу, чтобы в процессе записывать или даже
+      зарисовывать возникающие в голове образы. <br> <br>
+    </a>
+    <input type="button" id="begin" onclick="begin_click()" value="Начать!" class="begin_btn btn">
+  </div>
 
-      <section class="player_1">
-        <h2 class="main_h1 pl_h1 pl_ipad">Образ жизни</h2>
-        <div class="player_text">
-          <div class="players__text_1">
-            <div class="h2">
-              <span class="number">01</span>
-              <h3 class="main_h2">Стая</h3>
-            </div>
-            <p class="text tp">Отношения внутри стаи, в основном, дружелюбные и
-              совсем не агрессивные. Чаще всего волки находят себе ночлег в
-              пещерах, разломах скал, расщелинах и так далее. Из-за постепенного
-              исчезновения популяции, их стараются держать в неволе, но все
-              равно не получается их приручить.</p>
-            </div>
-            <div class="players__text_2">
-              <div class="h2">
-                <span class="number">02</span>
-                <h3 class="main_h2">Питание</h3>
-              </div>
-              <p class="text tp">Красные волки – это хищники. В основном они
-                питаются копытными животными, на которых охотятся стаями, ведь
-                в одиночку это сделать сложно. Они охотятся по одному только в
-                том случае, если добыча мелкая. Летом хищники могут питаться и растительной пищей.</p>
-            </div>
-            <div class="players__text_3">
-              <div class="h2">
-                <span class="number dark_2">03</span>
-                <h3 class="main_h2 dark_t">Размножение</h3>
-              </div>
-              <p class="text change_color tp">Рыжие млекопитающие живут семьями,
-                а потом объединяются в мощные стаи, которые проживают, охотятся,
-                воспитывают щенков и так далее. Самцы очень верны своей избраннице,
-                а также принимают активное участие в воспитании детенышей.</p>
-            </div>
-        </div>
-         <div class="img_2">
-          <picture >
-            <source media="(min-width: 641px) and (max-width: 960px)"
-            srcset="img/png_1_450.png">
-            <source media="(max-width: 640px)"
-            srcset="img/png_1_200.png">
-            <img src="img/png_1_600.png" class="basketballer_img" alt="basketballer">
-          </picture>
-        </div>
-      </section>
+  <div class="score" id="score"></div>
 
-      <section class="be_active">
-        <div class="content__be_active">
-          <div class="be_active__img">
-            <picture >
-              <source media="(min-width: 641px) and (max-width: 960px)"
-              srcset="img/p_2_1024.jpg">
-              <source media="(max-width: 640px)"
-              srcset="img/p_2_640.jpg">
-              <img src="img/p_2_1024.jpg" class="be_active_img" alt="be_active">
-            </picture>
-          </div>
-          <div class="count c_1">
-            <div class="c__count">01</div>
-          </div>
-          <div class="be_active__text">
-            <p class="text size_plus plus_padding">Данные млекопитающие создают
-              очень крепкие и дружные семьи, в которых царит определенная иерархия.
-              Людям есть чему поучиться у волков, ведь пары, которые создаются
-              для образования будущей семьи, остаются таковыми до конца своих дней.</p>
-          </div>
-        </div>
-      </section>
+  <form class="test" id="test">
+    <div class="questions_field">
+      <p id="p1"><a class="title">Представьте себе пустыню...</a>
+        <label onclick="nextqst(1)" class="group_answ">
+          <input type="radio" name="rb1" id="rb1" value="Я представил/а пустыню.">
+          <label for="rb1">Я представил/а пустыню.</label>
+        </label>
+      </p>
 
-      <section class="find_contact">
-        <div class="content__find_contact">
-          <div class="find_contact__text">
-            <p class="text size_plus plus_padding">Новорожденных волчат трудно
-              отличить от обычных серых, ведь характерный окрас они приобретают
-              значительно позже. Первые две недели своего существования детеныши
-              полностью слепые. Примерно по истечении шести месяцев щенки ничем
-              не уступают взрослому волку.</p>
-          </div>
-          <div class="count">
-            <div class="c__count">02</div>
-          </div>
-          <div class="find_contact__img">
-            <picture >
-              <source media="(min-width: 641px) and (max-width: 960px)"
-              srcset="img/p_1_1024.jpg">
-              <source media="(max-width: 640px)"
-              srcset="img/p_1_640.jpg">
-              <img src="img/p_1_1024.jpg" class="find_contact_img" alt="find_contact">
-            </picture>
-          </div>
-        </div>
-      </section>
+      <p id="p2"><a class="title">Как Вы чувствуете себя в этой пустыне?</a>
+        <label onclick="nextqst(2)" class="group_answ">
+          <label>
+            <input type="radio" name="rb2" id="rb21" value="Жарко">
+            <label for="rb21">Жарко</label>
+          </label>
+          <label>
+            <input type="radio" name="rb2" id="rb22" value="Комфортно">
+            <label for="rb22">Комфортно</label>
+          </label>
+          <label>
+            <input type="radio" name="rb2" id="rb23" value="Холодно">
+            <label for="rb23">Холодно</label>
+          </label>
+        </label>
+      </p>
 
-      <section class="work_it">
-        <div class="content__work_it">
-          <div class="work_it__img">
-            <picture >
-              <source media="(min-width: 641px) and (max-width: 960px)"
-              srcset="img/p_3_1024.jpg">
-              <source media="(max-width: 640px)"
-              srcset="img/p_3_640.jpg">
-              <img src="img/p_3_1024.jpg" class="work_it_img" alt="work_it">
-            </picture>
-          </div>
-          <div class="count">
-            <div class="c__count">03</div>
-          </div>
-          <div class="work_it__text">
-            <p class="text size_plus plus_padding">Данный вид хищника вы можете
-              найти в Красной книге, так как горного волка можно все реже встретить
-              в природе и совсем скоро возможно его полное исчезновение.
-              На данный момент предпринимаются различные меры для увеличения
-              популяции горного волка, но пока что насчитывают около 2500 взрослых
-              особей. Это критически мало.</p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- FOOTER -->
-    <footer class="footer_banner">
-        <div class="f_common-container">
-          <div class="f_title">
-            <div class="f_text">
-              <div class="f_svg">
-                <svg class="f_text_svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 16.56 16.56" xml:space="preserve" enable-background="new 0 0 16.564 16.564">
-                  <path d="M12.09 11.97c-1.45-1.82-1.52-4.03-1.52-4.03 -0.09-0.07-0.18-0.17-0.32-0.26 -0.03-0.02-0.05-0.04-0.08-0.06C10.05 7.54 9.92 7.47 9.8 7.42 9.39 7.26 9.03 7.2 8.59 7.18 7.94 7.16 7.47 7.42 7.04 7.75 6.97 7.81 6.9 7.87 6.83 7.94c-0.15 0.15-0.21 0.23-0.34 0.37C6.47 8.33 6.47 8.34 6.45 8.36c0 0-0.55 1.88-1.56 3.23
-                  -1.01 1.35-2.33 1.87-2.33 2.23 0 0.54 0.03 0.8 0.23 1.29 0.06 0.14 0.14 0.27 0.22 0.39 0.15 0.22 0.18 0.22 0.28 0.34 0.08 0.1 0.21 0.2 0.32 0.28 0.09 0.07 0.18 0.13 0.28 0.18 0.01 0.01 0.03 0.02 0.05 0.02 0.16 0.08 0.33 0.16 0.51 0.18l0.55 0.06h0.17c0.59-0.02 1.5-0.29 2.01-0.44 0.14-0.04 0.28-0.07 0.43-0.1l0.94-0.12c0.46-0.03 1.32 0.16 1.79 0.29 0.53 0.16 1.17 0.34 1.72 0.36h0.29c0.54-0.03 1.04-0.22 1.44-0.56 0.52-0.43 0.85-0.95 0.95-1.64C14.87 13.44 13.54 13.78 12.09 11.97z"/>
-                  <path d="M15.93 6.51c0.07-0.1 0.13-0.2 0.16-0.31 0.06-0.2 0.06-0.4 0.01-0.59 -0.05-0.19-0.15-0.36-0.33-0.5 -0.13 0.19-0.2 0.35-0.26 0.49 -0.06 0.14-0.1 0.27-0.14 0.39 -0.03 0.09-0.05 0.17-0.07 0.26 -0.74 0-1.61 0.87-1.97 1.7 -0.41 0.96-0.1 2.02 0.7 2.36s1.78-0.15 2.2-1.11C16.59 8.36 16.48 7.07 15.93 6.51z"/>
-                  <path d="M10.82 6.57c1.05 0.23 2.13-0.62 2.4-1.88 0.23-1.05-0.18-2.52-0.93-3.11 0.03-0.05 0.06-0.11 0.08-0.16 0.06-0.2 0.06-0.4 0.01-0.59 -0.05-0.19-0.15-0.36-0.33-0.5 -0.13 0.19-0.2 0.35-0.26 0.49 -0.06 0.14-0.1 0.27-0.14 0.39 -0.01 0.04-0.02 0.08-0.03 0.12 -0.99-0.02-1.95 1.37-2.21 2.56C9.14 5.14 9.77 6.34 10.82 6.57z"/>
-                  <path d="M6.15 6.63C7.29 6.54 8.13 5.36 8.02 3.99 7.92 2.68 6.81 1.07 5.72 1 5.71 0.96 5.7 0.92 5.68 0.88 5.65 0.76 5.61 0.63 5.54 0.49 5.48 0.35 5.41 0.19 5.28 0c-0.18 0.14-0.28 0.32-0.33 0.51C4.9 0.69 4.9 0.9 4.96 1.1c0.01 0.03 0.03 0.06 0.04 0.09 -0.8 0.52-1.22 1.99-1.13 3.13C3.99 5.69 5 6.72 6.15 6.63z"/>
-                  <path d="M3.78 7.79C3.5 6.69 2.33 5.47 1.38 5.53c-0.01-0.04-0.02-0.07-0.03-0.11C1.31 5.3 1.27 5.17 1.21 5.03c-0.06-0.14-0.13-0.3-0.26-0.49C0.77 4.68 0.67 4.85 0.62 5.04 0.56 5.23 0.57 5.44 0.63 5.64c0.02 0.07 0.06 0.14 0.1 0.2C0.14 6.43 0 7.73 0.24 8.68c0.3 1.17 1.33 1.92 2.31 1.68C3.53 10.11 4.08 8.96 3.78 7.79z"/>
-                </svg>
-                </div>
-                <div class="text2">
-                  <h2 class="f_banner-title">пожертвуйте на</h2>
-                    <p class="f_banner-title2">сохранение популяции красных волков!</p>
-                </div>
+      <p id="p3"><a class="title">Теперь представьте себе куб в этой пустыне...</a>
+        <label onclick="nextqst(3)" class="group_answ">
+          <input type="radio" name="rb3" id="rb3" value="Я представил/а куб.">
+          <label for="rb3">Я представил/а куб.</label>
+        </label>
+      </p>
 
-            </div>
-          </div>
-            <div class="footer_buttons">
-              <a href="#" class="styled">
-                <div class="btn_content">
-                  <svg class="svg_btn" version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid meet">
-                    <g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)" stroke="none">
-                      <path d="M1025 2540c-449-90-819-416-965-850-59-175-78-444-45-634 61-347 266-659 560-851 217-142 432-205 699-205 280 0 492 63 724 217 45 30 82 57 82 59 0 3-59 73-132 155-129 147-131 149-152 132-12-10-79-72-149-137-74-69-131-115-136-110-76 81-481 539-480 543 0 3 29 31 65 61 35 30 64 57 64 60 0 4-214 248-324 369l-21 23 68 62 69 63-174 192c-95 106-173 196-173 200 0 4 121 117 269 251l269 243 25-29c14-16 54-60 89-97l64-68 132 117c73 65 140 124 150 133 16 14 25 8 107-74l89-88 60 52c34 29 61 56 61 61 0 10-159 83-240 110-183 62-464 79-655 40z"/>
-                      <path d="M1957 2210c-42-40-77-75-77-79 0-10 130-151 140-151 5 0 43 30 84 67l75 67-20 25c-10 14-43 52-72 84l-53 59-77-72z"/>
-                      <path d="M1495 2141c-60-55-111-105-113-111-2-5 42-62 98-125 89-100 105-114 119-103 9 7 62 55 118 107l103 94-30 36c-16 20-64 73-107 119l-78 83-110-100z"/>
-                      <path d="M972 2024c-84-75-152-140-152-143 0-9 269-311 276-311 3 0 70 57 147 127 78 70 148 132 155 138 11 10-13 42-124 166-76 85-140 155-144 157-3 1-74-59-158-134z"/>
-                      <path d="M2148 1753c-40-37-74-69-75-72-1-3 30-41 70-84l72-79 80 74 79 75-69 76c-38 42-73 77-76 77-4 0-40-30-81-67z"/>
-                      <path d="M1703 1679c-62-56-113-106-113-111 0-5 46-61 102-123l101-114 56 49c31 27 85 75 119 107l64 58-107 118c-58 64-107 117-108 117-1 0-53-46-114-101z"/>
-                      <path d="M1191 1505c-83-75-151-141-151-147 0-10 256-301 270-306 9-3 310 265 310 276 0 7-204 239-254 290l-23 24-152-137z"/>
-                      <path d="M2342 1302c-40-37-72-71-72-77 0-5 31-44 69-85l68-74 76 69c43 37 77 73 77 78 0 11-130 157-139 157-3-1-39-31-79-68z"/>
-                      <path d="M1896 1195c-64-59-116-108-116-110 0-9 202-230 209-230 11 0 231 196 231 205 0 6-125 151-200 234-5 4-60-40-124-99z"/>
-                      <path d="M1417 989c-72-67-141-130-151-140-19-17-16-21 100-149 65-73 129-144 140-158l21-26 154 139c85 77 154 143 154 147 0 12-266 308-277 308-4 0-68-55-141-121z"/>
-                      <path d="M2091 729c-61-55-111-103-111-106 0-11 204-233 212-231 14 5 228 201 228 209 0 11-200 229-210 229-4 0-58-45-119-101z"/>
-                    </g>
-                  </svg>
-                  <div class="p" onClick="window.location='https://www.webmoney.ru/'" rel="external">
-                    <p class="p1">Поддержать</p>
-                    <p class="p2">красных волков!</p>
-                  </div>
-                </div>
-              </a>
-          </div>
-        </div>
-      </footer>
-  </body>
+      <p id="p4"><a class="title">Какого размера этот куб?</a>
+        <label onclick="nextqst(4)" class="group_answ">
+          <label>
+            <input type="radio" name="rb4" id="rb41" value="Большой">
+            <label for="rb41">Большой</label>
+          </label>
+          <label>
+            <input type="radio" name="rb4" id="rb42" value="Маленький">
+            <label for="rb42">Маленький</label>
+          </label>
+        </label>
+      </p>
+
+      <p id="p5"><a class="title">Где расположен этот куб?</a>
+        <label onclick="nextqst(5)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb5" id="rb51">
+            <label for="rb51">Вдалеке</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb5" id="rb52">
+            <label for="rb52">Он закопан в песок</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb5" id="rb53">
+            <label for="rb53">Он висит в воздухе</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb5" id="rb54">
+            <label for="rb54">Он высовывается за линию горизонта</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb5" id="rb55">
+            <label for="rb55">Он стоит на земле</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p6"><a class="title">Из чего сделан этот куб?</a>
+        <label onclick="nextqst(6)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb6" id="rb61">
+            <label for="rb61">Из прочного материала</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb6" id="rb62">
+            <label for="rb62">Из золота</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb6" id="rb63">
+            <label for="rb63">Из стекла</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p7"><a class="title">Куб заполнен чем то или пуст?</a>
+        <label onclick="nextqst(7)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb7" id="rb71">
+            <label for="rb71">Куб пуст внутри</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb7" id="rb72">
+            <label for="rb72">Куб заполнен чем то мутным</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p8"><a class="title">Теперь представьте лестницу...</a>
+        <label onclick="nextqst(8)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb8" id="rb8">
+            <label for="rb8">Я представил/а лестницу.</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p9"><a class="title">Какой длины эта лестница?</a>
+        <label onclick="nextqst(9)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb9" id="rb91">
+            <label for="rb91">Длинная</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb9" id="rb92">
+            <label for="rb92">Короткая</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p10"><a class="title">Эта лестница...</a>
+        <label onclick="nextqst(10)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb10" id="rb101">
+            <label for="rb101">... из необычного материала</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb10" id="rb102">
+            <label for="rb102">... прочная</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb10" id="rb103">
+            <label for="rb103">... в плохом состоянии</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p11"><a class="title">Где расположена лестница относительно куба?</a>
+        <label onclick="nextqst(11)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb11" id="rb111">
+            <label for="rb111">Далеко от куба</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb11" id="rb112">
+            <label for="rb112">Прислонена к кубу</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb11" id="rb113">
+            <label for="rb113">На кубе</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb11" id="rb114">
+            <label for="rb114">Под кубом</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p12"><a class="title">Представьте цветы...</a>
+        <label onclick="nextqst(12)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb12" id="rb12">
+            <label for="rb12">Я представил/а цветы.</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p13"><a class="title">Сколько их?</a>
+        <label onclick="nextqst(13)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb13" id="rb131">
+            <label for="rb131">Много</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb13" id="rb132">
+            <label for="rb132">Не очень много</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p14"><a class="title">Где эти цветы относительно куба?</a>
+        <label onclick="nextqst(14)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb14" id="rb141">
+            <label for="rb141">Близко к кубу</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb14" id="rb142">
+            <label for="rb142">Покрывают куб</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb14" id="rb143">
+            <label for="rb143">Далеко от куба</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p15"><a class="title">Эти цветы...</a>
+        <label onclick="nextqst(15)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb15" id="rb151">
+            <label for="rb151">... яркие</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb15" id="rb152">
+            <label for="rb152">... помятые</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb15" id="rb153">
+            <label for="rb153">... гнутся на ветру</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p16"><a class="title">Представьте себе лошадь...</a>
+        <label onclick="nextqst(16)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb16" id="rb16">
+            <label for="rb16">Я представил/а лошадь.</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p17"><a class="title">Какая это лошадь?</a>
+        <label onclick="nextqst(17)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb17" id="rb171">
+            <label for="rb171">Большая и сильная</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb17" id="rb172">
+            <label for="rb172">Обычная</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb17" id="rb173">
+            <label for="rb173">Маленькая и слабая</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p18"><a class="title">Где находится лошадь?</a>
+        <label onclick="nextqst(18)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb18" id="rb181">
+            <label for="rb181">Рядом с кубом</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb18" id="rb182">
+            <label for="rb182">Далеко от куба</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p19"><a class="title">Что делает лошадь?</a>
+        <label onclick="nextqst(19)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb19" id="rb191">
+            <label for="rb191">Кусает, обнюхивает или облизывает куст</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb19" id="rb192">
+            <label for="rb192">Ничего не делает</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb19" id="rb193">
+            <label for="rb193">Что-то делает с лестницей</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p20"><a class="title">Лошадь...</a>
+        <label onclick="nextqst(20)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb20" id="rb201">
+            <label for="rb201">... необузданная</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb20" id="rb202">
+            <label for="rb202">... привязанная</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p21"><a class="title">Теперь представьте бурю...</a>
+        <label onclick="nextqst(21)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb211" id="rb211">
+            <label for="rb211">Я представил/а бурю.</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p22"><a class="title">Где находится эта буря?</a>
+        <label onclick="nextqst(22)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb22" id="rb221">
+            <label for="rb221">Она вдалеке</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb22" id="rb222">
+            <label for="rb222">Она приближается</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb22" id="rb223">
+            <label for="rb223">Она уходит</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb22" id="rb224">
+            <label for="rb224">Она проходит мимо</label>
+          </label>
+
+        </label>
+      </p>
+
+      <p id="p23"><a class="title">Какая это буря?</a>
+        <label onclick="nextqst(23)" class="group_answ">
+
+          <label>
+            <input type="radio" name="rb23" id="rb231">
+            <label for="rb231">Это большая буря</label>
+          </label>
+
+          <label>
+            <input type="radio" name="rb23" id="rb232">
+            <label for="rb232">Это маленькая гроза</label>
+          </label>
+
+        </label>
+      </p>
+
+
+
+    </div>
+    <div class="buttons_field">
+      <input type="button" id="back" onclick="back_click()" value="Назад" class="back btn">
+      <input type="button" id="calc" onclick="calc_click()" value="Посмотреть результат" class="calc btn">
+    </div>
+  </form>
+
+</body>
 </html>
