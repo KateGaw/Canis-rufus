@@ -178,11 +178,11 @@ function calc_click() {
 
   var inp19 = document.getElementsByName('rb19');
   if (inp19[0].checked == true) {
-    ans[13] = "То, что лошадь делает показывает Ваше представление о ласках.";
+    ans[13] = " То, что лошадь делает показывает Ваше представление о ласках.";
   } else if (inp19[1].checked == true) {
     ans[13] = "";
   } else if (inp19[2].checked == true) {
-    ans[13] = "То, что лошадь делает показывает отношения Вашей половинки с Вашими друзьями и близкими.";
+    ans[13] = " То, что лошадь делает показывает отношения Вашей половинки с Вашими друзьями и близкими.";
   }
 
   var inp20 = document.getElementsByName('rb20');
@@ -205,9 +205,9 @@ function calc_click() {
 
   var inp23 = document.getElementsByName('rb23');
   if (inp23[0].checked == true) {
-    ans[16] = "Вы опасаетесь грядущих проблем.";
+    ans[16] = " Вы опасаетесь грядущих проблем.";
   } else if (inp23[1].checked == true) {
-    ans[16] = "Вы не особенно боитесь грядущих проблем.";
+    ans[16] = " Вы не особенно боитесь грядущих проблем.";
   }
 
   var final = document.getElementById('score');
