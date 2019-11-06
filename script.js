@@ -34,7 +34,7 @@ function nextqst(num) {
       document.getElementById('p' + (num+1)).style.display="block";
     }
     counter = num;
-  }, 500);
+  }, 100);
 }
 
 function back_click() {
