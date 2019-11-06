@@ -211,20 +211,38 @@ function calc_click() {
   }
 
   var final = document.getElementById('score');
-  final.innerHTML = '<p>Пустыня - это Ваша жизнь. И то, насколько Вам в ней комфортно показывает, '
+  var final_1 = document.getElementById('score_1');
+  var final_2 = document.getElementById('score_2');
+  var final_3 = document.getElementById('score_3');
+  var final_4 = document.getElementById('score_4');
+  var final_5 = document.getElementById('score_5');
+
+  final_1.innerHTML = 'Пустыня - это Ваша жизнь. И то, насколько Вам в ней комфортно показывает, '
   + 'как Вы ощущаете себя в жизни. И судя по всему, ' + ans[0]
   + '<br><br>  Куб символизирует Ваше представление о самом себе. Судя по Вашим ответам, '
   + ans[1] + ' Вы ' + ans[2] + ans[3] + '. Судя по тому, чем наполнен Ваш куб, Вы '
-  + ans[4] + '. </p><br><br><p>  Лестница - это символ отношений с окружающими людьми - друзьями, родственниками. Ваша лестница '
-  + ans[5] + ' Ваша лестница ' + ans[6] + ' Она ' + ans[7]
-  + '</p><br><br><p>  Цветы обозначают роль детей в жизни человека. Вы '
-  + ans[8] + ' Цветы ' + ans[9] + ' Вам ' + ans[10]
-  + '</p><br><br><p>  Лошадь символизирует Вашу вторую половинку. '
+  + ans[4] + '.';
+
+  final_2.innerHTML = 'Лестница - это символ отношений с окружающими людьми - друзьями, родственниками. Ваша лестница '
+  + ans[5] + ' Ваша лестница ' + ans[6] + ' Она ' + ans[7];
+
+  final_3.innerHTML = 'Цветы обозначают роль детей в жизни человека. Вы '
+  + ans[8] + ' Цветы ' + ans[9] + ' Вам ' + ans[10];
+
+  final_4.innerHTML = 'Лошадь символизирует Вашу вторую половинку. '
   + ans[11] + ' В пустыне Ваша лошадь находится ' + ans[12] + ans[13] + ' Вы нуждаетесь '
-  + ans[14] + '</p><br><br><p>  Буря символизирует отношение человека к жизненным проблемам. Судя по всему, '
+  + ans[14];
+
+  final_5.innerHTML = 'Буря символизирует отношение человека к жизненным проблемам. Судя по всему, '
   + ans[15] + ans[16];
 
-  final.style.display="flex";
+
+  final.style.display="block";
+  final_1.style.display="block";
+  final_2.style.display="block";
+  final_3.style.display="block";
+  final_4.style.display="block";
+  final_5.style.display="block";
   document.getElementById('p' + questions).style.display="none";
   document.getElementById('calc').style.display="none";
 }
