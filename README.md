@@ -1,2 +1,2 @@
-# course_paper_uni
- https://kategaw.github.io/Cuon-alpinus/
+# Психологичесий тест "Куб в пустыне"
+ https://kategaw.github.io/cube_in_desert/
