@@ -113,14 +113,15 @@ input[type=radio] + label:before {
 
 /* BUTTON STYLE */
 .btn {
+  /* display: flex; */
   font-size: 1em;
   border: 1px solid #382d0b;
   padding: 4px 25px;
   border-radius: 80px;
   background-color:#D2691E;
-  margin: 2%;
+  margin: 1%;
   max-height: 75px;
-  max-width: 40%;
+  /* max-width: 40%; */
   justify-content: space-evenly;
 }
 
@@ -143,6 +144,10 @@ input[type=radio] + label:before {
 
   form {
     width: 75%;
+  }
+
+  .buttons_field {
+    flex-direction: column;
   }
 }
 
@@ -171,6 +176,10 @@ input[type=radio] + label:before {
   .questions_field {
     height: 77%;
   }
+
+  .buttons_field {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -179,7 +188,8 @@ input[type=radio] + label:before {
   }
 
   .buttons_field {
-    width: fit-content;
+    /* width: fit-content; */
+    flex-direction: column;
   }
 
   .btn {
@@ -187,7 +197,7 @@ input[type=radio] + label:before {
   }
 
   .questions_field {
-    height: 86%;
+    height: 79%;
   }
 
   .begin, form {
@@ -221,5 +231,6 @@ input[type=radio] + label:before {
 
   .questions_field {
     height: 88%;
+    flex-direction: row;
   }
 }
